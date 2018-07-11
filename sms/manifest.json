@@ -1,0 +1,14 @@
+{
+  "name": "SMS | Oloo Jade",
+  "version": "1",
+  "browser_action": {
+    "default_icon": "sms.png"
+  },
+  "background":
+  {
+    "scripts": ["background.js"]
+  },
+  "permissions": ["activeTab"],
+  "manifest_version": 2,
+  "description": "Launch Android SMS"
+}
