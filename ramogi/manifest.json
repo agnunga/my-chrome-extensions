@@ -1,0 +1,14 @@
+{
+  "name": "Ramogi FM | Oloo Jade",
+  "version": "1",
+  "browser_action": {
+    "default_icon": "ramogi.png"
+  },
+  "background":
+  {
+    "scripts": ["background.js"]
+  },
+  "permissions": ["activeTab"],
+  "manifest_version": 2,
+  "description": "Launch Ramogi FM"
+}

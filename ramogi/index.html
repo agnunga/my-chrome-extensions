@@ -1,0 +1,11 @@
+<html>
+  <head>
+    <script>
+      chrome.browserAction.onClicked.addListener(function(activeTab)
+      {
+        var newURL = "http://www.radio.or.ke/ramogi-nairobi/";
+        chrome.tabs.create({ url: newURL });
+      });
+    </script>
+  </head>
+</html>
